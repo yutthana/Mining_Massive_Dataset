@@ -7,9 +7,9 @@
 
 ##Data Preprocession
 run `read_csv.py` to get 3 files of data. 2 training and 1 testing files. testing will be approx. 20% of whole data. you can specify number of data and percentage of testing in file.
-1. content-based file will have reviewerID, review text, asin, and rating. 80% from whole data
-2. collaborative filtering file will have reviewerID, asin, and rating. 80% from whole data(same data as above but no reviewText)
-3. testing file will have the rest 20% of data with reviewerID, asin, and rating.
+*  content-based file will have reviewerID, review text, asin, and rating. 80% from whole data
+*  collaborative filtering file will have reviewerID, asin, and rating. 80% from whole data(same data as above but no reviewText)
+*  testing file will have the rest 20% of data with reviewerID, asin, and rating.
 
 ##How to run (content-based)
 1.	Use `getMostFrequence_Content.py` to get most frequency word lists. Use review file that get from `read_csv.py`. Specify number of reviews here. Ex. > 500 reviews.
