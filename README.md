@@ -1,5 +1,8 @@
 # Mining_Massive_Dataset
 
+#Project report
+https://sites.google.com/site/dataminingalbany/
+
 ##Features selection for content based
 1.	`Price of item` – we assume that some item are similar if they have similar price. For example, the Box set of DVD would be more expensive than a single DVD. Also, new movie and popular movie tend to have higher price than old movie and unpopular movie.
 2.	`Average rating` – we can group this into 2 big category, good and bad movie. The good movie will have high average rating and bad otherwise.
